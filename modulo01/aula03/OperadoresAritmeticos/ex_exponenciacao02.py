@@ -1,0 +1,21 @@
+num1 = 2 # Um dado tipo inteiro
+num2 = 2.5 # Um dado tipo decimal
+verdadeiro = True # Um dado tipo boolean
+falso = False # Um dado tipo boolean
+texto1 = "Olá, " # Um dado tipo texto
+texto2 = "mundo!" # Um dado tipo texto
+
+print(f'{num1} ** {num1} é igual a {num1 ** num1} retornando um resultado {type({num1 ** num2})}')
+print(f'{num1} ** {num2} é igual a {num1 ** num2} retornando um resultado {type({num1 ** num2})}')
+print(f'{num2} ** {num2} é igual a {num2 ** num2} retornando um resultado {type({num2 ** num2})}')
+print(f'{num1} ** {verdadeiro} é igual a {num1 ** verdadeiro} retornando um resultado {type({num1 ** verdadeiro})}')
+print(f'{num2} ** {verdadeiro} é igual a {num2 ** verdadeiro} retornando um resultado {type({num2 ** verdadeiro})}')
+#print(f'{num1} ** {falso} é igual a {num1 ** falso} retornando um resultado {type({num1 ** falso})}')
+#print(f'{num2} ** {falso} é igual a {num2 ** falso} retornando um resultado {type({num2 ** falso})}')
+print(f'{verdadeiro} ** {verdadeiro} é igual a {verdadeiro ** verdadeiro} retornando um resultado {type({verdadeiro ** verdadeiro})}')
+#print(f'{falso} ** {falso} é igual a {falso ** falso} retornando um resultado {type({falso ** falso})}')
+#print(f'{num1} ** {texto1} é igual a {num1 ** texto1} retornando um resultado {type({num1 ** texto1})}')
+#print(f'{num2} ** {texto1} é igual a {num2 ** texto1} retornando um resultado {type({num2 ** texto1})}')
+#print(f'{verdadeiro} ** {texto1} é igual a {verdadeiro ** texto1} retornando um resultado {type({verdadeiro ** texto1})}')
+#print(f'{falso} ** {texto1} é igual a {falso ** texto1} retornando um resultado {type({falso ** texto1})}')
+#print(f'{texto1} ** {texto2} é igual a {texto1 ** texto2} retornando um resultado {type({texto1 ** texto2})}')
