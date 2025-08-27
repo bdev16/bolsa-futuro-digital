@@ -1,0 +1,3 @@
+# Variaveis globais
+ 
+# Variveis locais
